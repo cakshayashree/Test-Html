@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>
+            user register
+        </title>
+        <style>
+             form{
+                background-color:violet;
+             }
+             
+        </style>
+    </head>
+    <body>
+        <centre></centre>
+        <form action="useraction.php"  method="post" >
+            <input type="text" name="username" placeholder="enter the user name..." required="true" readonly value="c.akshaya shree" disabled>
+            <br><br>
+            <input  type ="number" name="moblie number" placeholder="enter the moblie number..."  reequried>
+            <br><br>
+            <input type="Email" name="email" placeholder="enter  the email..." required>
+            <br><br>
+            <input type="password" name="password" placeholder="enter the password..." required>
+            <br><br>
+            <input type="date" name="date" placeholder="enter the date..." required>
+            <br><br>
+            <input type="time" name="time" placeholder="enter the time..." requried>
+            <br><br>
+            <input type="tel" name="tell" requried>
+            <br><br>
+            <input type="radio" name="gender" value="male" requried>Male
+            <input type="radio" name="gender" value="female" requried>Female
+            <br><br>
+            <input type="checkbox" name="accept">Data Accepted
+            <br><br>
+            <input type="range" min="0" max="100" required>age number
+            <br><br>
+            <br><br>
+            <input type="color" name="color" requried>
+            <br><br>
+             <input type="file" nmae="file" requried>
+             <br><br>
+             <input type="hidden" value="c.akshaya shree" name="name">
+             <br><br>
+             <select name="Branch[]" multiple size= "3" requried>
+                <option value="ECE">ECE</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="AIML">AIML</option>
+                <option value="DS">DS</option>
+             </select> <br><br>
+
+             <input type="file" name="file[]"  multiple required>
+             <br><br>
+
+             <textarea name="adderss"
+                       cols="10" rows="3"
+                       placeholder="enter the adderss"
+                       requried> </textarea>
+        
+
+            <br><br>
+            <input type="submit" value="submit" required>
+            <br><br>
+            <input type="reset" value="reset" requried>
+            <br><br>
+            <input type="button" requried>DATA ACCEPTED
+
+        </form>
+    </body>
+</html>
